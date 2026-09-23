@@ -1,5 +1,7 @@
 # Renderability Audit Tools
 
+The companion `tools/audit_extractability.py` inspects local HTML for visible answer-first structures (H1, tables, lists, question marks and first-answer text) while excluding script/style/template noise.
+
 Dependency-free audit of what remains usable in the raw HTML response before JavaScript execution.
 
 It measures visible raw-HTML words and checks server-delivered title, canonical, hreflang, JSON-LD and semantic content landmarks. It does **not** claim to emulate Google, ChatGPT, Claude, Perplexity, or a browser renderer.
